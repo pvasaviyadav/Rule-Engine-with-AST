@@ -1,0 +1,12 @@
+### Database Schema:
+
+The following schema is used to store weather data:
+
+```sql
+CREATE TABLE weather_data (
+    id SERIAL PRIMARY KEY,
+    city VARCHAR(50),
+    timestamp TIMESTAMP,
+    temp_celsius FLOAT,
+    weather_condition VARCHAR(50)
+);
