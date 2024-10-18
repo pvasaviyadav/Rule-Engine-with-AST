@@ -1,0 +1,3 @@
+# Rule Engine with Abstract Syntax Tree (AST)
+
+This project implements a rule engine that evaluates user eligibility based on attributes such as age, department, salary, etc. The system uses an Abstract Syntax Tree (AST) to represent conditional rules and supports dynamic creation, combination, and modification of rules.
