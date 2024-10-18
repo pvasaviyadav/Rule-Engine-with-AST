@@ -1,0 +1,4 @@
+### Running Tests:
+Unit tests are located in the `tests/` folder. To run tests, use the following command:
+```bash
+mvn test  # If using Maven
