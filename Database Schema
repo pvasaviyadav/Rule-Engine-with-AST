@@ -1,0 +1,10 @@
+### Database Schema:
+
+The rules and metadata are stored in the PostgreSQL database with the following schema:
+
+```sql
+CREATE TABLE rules (
+    rule_id SERIAL PRIMARY KEY,
+    rule_name VARCHAR(50),
+    ast JSONB -- JSON representation of the AST
+);
