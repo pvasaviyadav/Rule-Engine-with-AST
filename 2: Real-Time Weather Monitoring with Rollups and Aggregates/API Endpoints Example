@@ -1,0 +1,4 @@
+### API Endpoints:
+- `GET /weather`: Retrieve the current weather data for all cities.
+- `GET /summary`: Get the daily weather summary.
+- `POST /set_threshold`: Set alert thresholds for temperature or weather conditions.
