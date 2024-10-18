@@ -1,0 +1,19 @@
+## Setup Instructions:
+### Prerequisites:
+- Docker (https://www.docker.com/)
+- PostgreSQL (https://www.postgresql.org/download/)
+
+### Steps to Run:
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/yourusername/rule-engine.git
+   cd rule-engine
+   ```
+
+2. Build and run the Docker container:
+   ```bash
+   docker build -t rule-engine .
+   docker run -d -p 8080:8080 rule-engine
+   ```
+
+3. The application will be available on `http://localhost:8080`.
