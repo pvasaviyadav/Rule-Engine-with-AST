@@ -1,0 +1,3 @@
+# Real-Time Weather Monitoring System
+
+This project continuously monitors weather data from the OpenWeatherMap API for major Indian metros. It processes the data to provide daily summaries (average temperature, dominant weather conditions), and triggers alerts based on configurable thresholds.
