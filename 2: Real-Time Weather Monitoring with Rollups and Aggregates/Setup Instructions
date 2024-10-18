@@ -1,0 +1,11 @@
+### Setup Instructions:
+
+1. Get your OpenWeatherMap API key (https://openweathermap.org/).
+
+2. Build and run the Docker container:
+   ```bash
+   docker build -t weather-monitor .
+   docker run -d -p 5000:5000 weather-monitor
+   ```
+
+3. The application will call the API every 5 minutes to get weather data and store it in the database.
